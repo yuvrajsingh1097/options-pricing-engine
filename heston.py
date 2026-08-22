@@ -250,3 +250,5 @@ if __name__ == "__main__":
     print(f"  Difference   : {result.price - bs_ref:.4f}")
     feller_ok = 2*params.kappa*params.theta > params.xi**2
     print(f"  Feller cond  : {'PASS' if feller_ok else 'FAIL'}")
+
+# volatility handler in market 
