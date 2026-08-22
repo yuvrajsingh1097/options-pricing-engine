@@ -205,3 +205,5 @@ class TestGreeksSurface:
 
     def test_vega_surface_positive(self):
         assert (self.surface["vega"] > 0).all()
+
+#basic tests
